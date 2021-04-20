@@ -4,8 +4,8 @@ RUN apt-get update
 RUN apt-get install python3-pip -y
 
 WORKDIR /home/ubuntu/
-RUN git clone https://github.com/unhochoi/aws-sample-general-app.git
-WORKDIR aws-sample-general-app
+RUN git clone https://github.com/unhochoi/flask-web-application-in-ec2.git
+WORKDIR flask-web-application-in-ec2
 
 RUN mkdir -p static/uploads
 
