@@ -5,7 +5,7 @@ Flask Web Application to Classify Image using Docker in Cloud9
 
 ### Dockerfile Download
 ```
-wget https://github.com/unhochoi/flask-web-application-using-docker/blob/main/Dockerfile
+wget https://github.com/unhochoi/flask-web-application-using-docker-in-cloud9/blob/main/Dockerfile
 ```
 ### Image build
 ```
