@@ -5,6 +5,12 @@ Flask Web Application to Classify Image using Docker in Cloud9
 ```
 curl -O https://raw.githubusercontent.com/unhochoi/flask-web-application-using-docker-in-cloud9/main/Dockerfile
 ```
+### Disk resize of EBS in Cloud9
+```
+curl -O https://raw.githubusercontent.com/unhochoi/disk-resize-of-ebs-in-cloud9/main/resize.sh
+chmod +x resize.sh
+./resize.sh 20
+```
 ### Image build
 ```
 docker build -t flask-image .
