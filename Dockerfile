@@ -11,6 +11,6 @@ RUN mkdir -p static/uploads
 
 RUN pip3 install -r requirements.txt
 
-EXPOSE 80
+EXPOSE 5000
 
 CMD ["python", "main.py"]
