@@ -9,6 +9,10 @@ curl -O https://raw.githubusercontent.com/unhochoi/flask-web-application-using-d
 ```
 docker build -t flask-image .
 ```
+### Disable Apache2, the default web application of Cloud9
+```
+sudo systemctl stop apache2
+```
 ### Create Container
 ```
 docker run --name flask-container -d -p 80:80 flask-image
