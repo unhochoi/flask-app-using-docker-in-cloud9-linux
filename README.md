@@ -1,5 +1,3 @@
-# flask-web-application-using-docker-in-cloud9
-
 ## Instruction
 Flask Web Application to Classify Image using Docker in Cloud9
 
