@@ -1,10 +1,9 @@
 FROM python:3
 
-RUN apt-get update
-RUN apt-get install python3-pip -y
+RUN yum update
+RUN yum install python3-pip -y
 
-WORKDIR /home/ubuntu/
-
+WORKDIR /home/ec2-user/
 RUN git clone https://github.com/unhochoi/flask-web-application-in-ec2.git
 WORKDIR flask-web-application-in-ec2
 
