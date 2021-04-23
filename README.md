@@ -1,9 +1,9 @@
 ## Instruction
-Flask Web Application to Classify Image using Docker in Cloud9
+Flask Web Application to Classify Image using Docker in Cloud9 linux version
 
 ### Dockerfile Download
 ```
-curl -O https://raw.githubusercontent.com/unhochoi/flask-web-application-using-docker-in-cloud9/main/Dockerfile
+curl -O https://raw.githubusercontent.com/unhochoi/flask-app-using-docker-in-cloud9-linux/main/Dockerfile
 ```
 ### Disk resize of EBS in Cloud9
 ```
@@ -14,10 +14,6 @@ chmod +x resize.sh
 ### Image build
 ```
 docker build -t flask-image .
-```
-### Disable Apache2, the default web application of Cloud9
-```
-sudo systemctl stop apache2
 ```
 ### Create Container
 ```
