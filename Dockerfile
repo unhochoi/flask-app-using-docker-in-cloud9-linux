@@ -5,8 +5,8 @@ RUN yum install git -y
 RUN yum install python3-pip -y
 
 WORKDIR /home
-RUN git clone https://github.com/unhochoi/flask-web-application-in-ec2.git
-WORKDIR flask-web-application-in-ec2/
+RUN git clone https://github.com/unhochoi/flask-app-in-ec2-linux.git
+WORKDIR flask-app-in-ec2-linux/
 
 RUN mkdir -p static/uploads
 
